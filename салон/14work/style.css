@@ -1,0 +1,36 @@
+body {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	background-color: rgb(233, 233, 233);
+	color:brown;
+	width: 100%;
+}
+
+.form {
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: auto;
+	height: 200px;
+}
+
+.title {
+	margin-bottom: 150px;
+}
+
+.sale {
+	border: 1px solid pink;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.msg {
+	color:pink;
+}
